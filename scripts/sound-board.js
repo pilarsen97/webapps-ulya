@@ -11,7 +11,7 @@ const sounds = [
 let soundTags = [];
 
 sounds.forEach(soundName => {
-    soundTags.push(`<audio id="${soundName}" src="/Sounds/${soundName}.mp3"></audio>`);
+    soundTags.push(`<audio id="${soundName}" src="Sounds/${soundName}.mp3"></audio>`);
 
     const btn = document.createElement('button');
     btn.classList.add("sound-board__btn");
